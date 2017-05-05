@@ -1,0 +1,52 @@
+Entradas----------------------------------------
+Informacion inicial de la pagina
+-Se puede agregar titulo
+-Contenido
+-Formato (No todos los formatos son iguales en los temas)
+
+Las entradas se pueden mostrar en el sitio prinicpal:
+al dar click en el titulo de la entrada en la pagina de inicio de wordpress puedes ver una entrada
+tambien aparecen en la columna de entradas recientes de la pagina de inicio
+-------------------------------------------------------
+-A cada entrada puedes agregarle varias categorias en el mismo editor de texto dependiendo de la tematica del sitio
+-A cada entrada puedes agregarle varias etiquetas dependiendo de la tematica del sitio
+-Se pueden asignar imagenes destacadas
+-Se pueden añadir extractos que son resumenes opcionales
+thumbnail = imagen destacada
+
+
+
+En las opciones de pantalla en la entrada se pueden agregar mas contenidos como estractos o comentarios
+se puede desarrolar la pagina sin tener que utilizar html
+
+
+
+Nota1: hay una columna de formato que aparece cuando editas una entrada esta solo se muestra en ese mismo tema (tema por defecto de wordpress) es decir no se puede ver en tro tema.
+
+
+
+
+
+Categorias--------------------------------
+
+Urls amigables: urls que se pueden entender facilmente el nombre de la url esta relacionado con el titulo de la pagino y no se le asignan mas atributos o extensiones
+
+Se pueden agregar las categorias desde la opcion de categorias
+Slug: El “slug” es la versión amigable de la URL del nombre. Suele estar en minúsculas y contiene sólo letras, números y guiones.
+se le puede agregar un slug a la categoria
+
+Puedes realizar jerarquias de categorias con categoria superioi
+
+
+
+Nota2: algunos plug-ins 
+-transposh.
+-polylank.
+-page builder.
+
+
+
+
+
+Recomendaciones:
+-Al agregar el titulo de una imagen hay que agregar el nombre que es. asi como leyenda descripcion y texto alternativo esto puede ayudarle mucho a los buscadores.

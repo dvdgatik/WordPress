@@ -1,0 +1,26 @@
+Tipos de usuarios
+Perfil------------------------
+Visitantes (No sale, es el usuario que solo visita el sitio web).
+-Suscriptor(Solo pueden acceder a contenido para personas que se an registrado es decir si una persona no se ha registrado puedes hacer que no entre a ciertos modulos de tu sitio).
+
+-Colaborador(El colaborador puede crear nuevos articulos y editarlos pero tiene una diferencia no puede publicarlos directamente tiene que haber otro usuario que lo autorize).
+
+-Autor(Es similar al del colaborador solo que los articulos si puede publicarlos directamente).
+
+-Editor(Es una especie de administrador puede trabajar con todo el panel de wordpress excepto con algunas herramientas administrativas como plugins, apariencias, herramientas, ajustes etc...).
+
+-Administrador (Tiene todo el control del wordpess)
+
+
+
+
+
+
+De un suario podemos ver:
+-El correo electronico el tipo de perfil que tiene y las entradas que el ha publicado.
+
+Los tipos de usuario sirven porque puedes tener varios usuarios interactuando en el sitio web.
+
+Recomendaciones:
+-Si se va a crear un usuario para una persona creale contraseñas que tu no sepas hay sitios donde se crean contraseñas.
+-Wordpress da la opcion de enviar la contrseña por correo electronico.

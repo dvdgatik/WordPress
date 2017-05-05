@@ -1,0 +1,172 @@
+Herramientas------------------------------------
+
+Publicar Esto 
+Es una especie de enlace que se arrastra a la barra de herremientas de un navegador al hacer clic sobre el abrira una especie de interfaz grafia donde puedes hacer borrador de una pagina onclusive publicarla
+Ya no es muy utilizado.
+
+Conversor de Etiquetas y Categorias
+Existen sitios que en vez de utilizar categorias usan etiquetas
+Puedes convertir de categorias a etiquetas y etiquetas a categorias
+ 
+
+Importar:
+Te permite agregar el sitio de una plataforma a wordpress
+puede ser:
+Blogger
+Mismo Wordpress (Plug in Wordpress importer)
+
+
+
+Exportar:
+ Exporta todo el contenido del wordpress inclusive para hacer un Back Up
+
+ Puede exportarse solo una parte por ejemplo:
+ Entradas
+ Autores
+ Estado
+ Categorias
+
+
+
+Ajustes
+Generales---------------------------------------------
+Titulo del sitio: Edita el titulo del sitio web.
+
+Descripcion corta: Es importante agregarla aparece debajo del titulo aunque no en todos los sitios aparece.
+
+Direccion de wordpress URL:  cambia la url del sitio (no ser inocente con esto) no creas dominios con esto solo añades una url para que pueda mostrarse el sitio
+
+
+Existe una opcion donde puedes permitir que cualquiera pueda registrarse
+Abajo de la opcion anterior puedes establecer el perfil predeterminado  para los nuevos usuarios.
+
+Puedes configurar la zona horaria y el formato de fecha
+
+Pueden convertirse atajos de teclado como :-)  :-P a emoticones
+Puede corregirse de forma automatica el XHTML INCORRECTAMENTE ANIDADO
+
+
+Puedes establecer la categoria predeterminada de las entradas es decir, que categoria puede tener si no se selecciona ninguna al iniciar el wordpress
+
+formato de entrada
+
+Existe la opcion de publicar  por correo electronico
+
+
+Ajustes de lectura------------------
+Dentro de este apartado puedes puedes configurar la pagina frontal como en los temas si quieres que solo sea una entrada o bien una pagina estatica
+
+Puedes establer el numero de entradas a mostrar en el sitio
+
+
+Dentro de la visibilidad para los buscadores puedes disuadir a los motores de busqueda de indexar este sitio  habilitando esta opcion.
+
+Ajustes de comentarios-----------------------
+Aparecen ajustes como:
+- Tratar de avisar a los sitios enlazados desde el articulo
+- Permitir notificaciones de enlace desde otros sitios (pingbacks y trackbacks)
+- Permite que se publiquen comentarios en articulos nuevos
+-El autor del comentario debe rellenar el nombre y el correo electronico
+- Cerrar automaticamente los comentarios y las entradas con mas de n dias
+- Activar los comentarios anidados hasta n niveles
+Enviarme un correo electronico cuando:
+Alguien envia un correo
+Se ha recibido un comentario para moderar
+
+
+Visibilidad Mostrar Avatares
+
+
+
+Ajustes de medios 
+
+Tamaño de miniaturas
+
+
+Ajustes de Enlaces Permanentes
+
+WordPress te ofrece la posibilidad de crear una estructura de URLs personalizada para tus enlaces permanentes y archivos. Las estructuras de URLs personalizadas pueden mejorar la estética, usabilidad y compatibilidad futura de tus enlaces. Hay varias posibles etiquetas disponibles, y aquí tienes algunos ejemplos para empezar.
+
+tu puedes agregar atributos en la url como:
+fecha
+dia y nombre
+mes y nombre
+numerico
+nombre
+estructura personalizada 
+la mas recomendada seia nombres 
+
+slug: como se mostrara la entrada
+
+
+Nota: no se deben cambiar los enlaces permenentes constantemente ya que estos se pueden compartir al cambiarlo a uno nuevo el que compartiste anteriormente ya no funcionaria.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

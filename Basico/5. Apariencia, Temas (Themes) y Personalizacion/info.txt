@@ -1,0 +1,156 @@
+Comentarios
+-Aparecen los comentarios que pertenecen a cada articulo
+-En la seccion de comentarios aparece el usuario quien lo comento el correo y una direccion IP para saber si te estan spaneando
+-Puedes decir que los comentarios se aprueben
+-Puedes agregar y cambiar temas y personalizarlos (titulo del sitio, colores).
+-En la interfaz de personalizacion puedes encontrar widgets en donde vienen:
+Buscar
+Entradas Recientes
+Comentarios Recientes
+Archivos
+Categorias
+Meta
+Estas secciones se pueden eliminar, Tambien de esta seccion tenemos la seccion secundaria donde pueden añadir widgets puede ser un calendario una entrada un RSS ect.
+Se puede agregar al tema una pagina como portada por defecto siempre aparecen las ventanas.
+
+
+Dentro de los ficheros de wordpress en la carpeta wp-content es relevante debido a que aqui puedes encontrar:
+languages
+plugins
+themes
+upgrade
+uploads
+index.php
+
+
+Apareincia----------
+
+Se pueden añadir temas agregandolo a la carpeta themes o bien desde el panel de control de wordpress de wordpress
+
+Se pueden agregar menus  navbars a wordpress estos enlaces son de tres tipos:
+-Paginas
+-Enlaces
+-Categorias
+
+Para que se pueda visualizar habria que indicarle en que ubicacion lo deseamos establecer para ello en opciones de menu estan las ubicaciones del tema
+Tambien existe la opcion de que si se agregan nuevas paginas se agregaran tambien al menu
+
+Se pueden agregar cabeceras
+
+En el apartado de apariencia existe una seccion llamada editor en ella tu puedes ver todos los estilos CSS  que maneja el tema y por ente modificarlos a tu gusto
+
+
+
+¿Donde puedo establecer el numero de articulos, comentarios recientes?
+-A traves de los widgets desde el dashboard o panel de administracion
+
+
+Nota1: no todos los temas permiten personalizar todo.
+Nota2: Si alguna vez tienes un problema con un plugin puedes borarr la carpeta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+html (html5)
+css (bootstrap , css3, saas, less)
+javascript (dom, jquery, angularjs, nodejs)
+php (codeigniter,laravel)
+mysql mongodb
+
+
+front-end
+html
+css
+javascript
+
+back-end
+php
+java
+ruby
+.net
+sql
+
+
+
+HTML5 CANVAS
+CSS3 BOOTSTRAP SAAS LESS
+DOM, JQUERY, ANGULAR JS, NODE JS
+
+CODEIGNITER, LARAVEL PHP POO, CAKE PHP, SIMFONY
+SPRING
+
+mysql mongodb
+
+para mi
+front end
+-html5-
+-dhtml-
+-css3-
+-bootstrap-
+-saas and less
+-dom-
+-jquery-
+-angular js
+-node js
+-flexbox
+-materialize
+
+back end
+-codeigniter-
+-laravel
+-mysql-
+-mongodb
+
+mobile dev
+-ionic
+
+cms
+-wordpress-
+
+dg
+-photoshop

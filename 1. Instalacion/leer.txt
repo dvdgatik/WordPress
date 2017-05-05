@@ -1,0 +1,17 @@
+Gestor de contenidos para relizar sitios web hasta un carrito de compras
+	-wordpress.com  Servicio
+	-wordpress.org  Plataforma
+
+
+	Nombre de la base de datos: wordpres_test
+	Nombre de usuario: root
+	Contraseña: dvd12358
+	Servidor: localhost
+	prefijo de la tabla: wp_
+
+
+	usuario wp admin 
+	password wp wvwgtkms12358
+
+     wp-login.php  login
+     wp-admin administrador

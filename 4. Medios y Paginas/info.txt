@@ -1,0 +1,37 @@
+Medios
+Los medios no son muy utilizados en Wordpress
+Permite administrar videos audios etc...
+Wordpress cuenta con un pequeño editor de imagen
+
+Entradas
+Son articulos o textos que tu agregas hablando sobre algo
+
+
+Paginas
+son paginas staticas  una pagina statica sirve para poner secciones acerca de nosotros, contacto
+
+Opciones de pantallla - comentairos y campos personalizados
+
+Partes del editor
+Titulo
+Contenido
+Atributs de la pagina
+ -Superior
+ -Plantillas (dependen de cada tema)
+
+ Vista previa
+
+ Estado
+ -publicada
+ -borrador
+ -pendiente de revision (sirven para que los articulos no se publiquen automaticamente)
+
+ Visibilidad
+ Publico
+ Privada
+ Protegido con contraseña
+
+
+ Fecha de publicacion
+
+-

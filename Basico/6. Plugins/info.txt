@@ -1,0 +1,30 @@
+Plug Ins:
+Un Plug In es un añadido que podremos a agregar a nuestro wordpress una añadido es un componente extra que puedes utilizar en este SGC
+
+
+Plugins que ya estan instalados en wordpress:
+Akismet: Cada vez se utiliza menos pero lo que ayuda es prevenir el spam correo no deseado de los comentarios.
+
+Para utilizarlo tienes que activarlo y hacer una cuenta  de akismet  que te enviara por correo un codigo que hay que ingresarlo en wordpress de esta manera ya se utilizaria.
+
+Hello Dolly: Esto no es solo un plugin, simboliza la esperanza y entusiasmo de toda una generación resumidas en las dos palabras más famosas cantadas por Louis Armstrong: Hello, Dolly. Cuando lo actives verás frases al azar de Hello, Dolly en la parte superior derecha de cada página de tu pantalla de administración. (No es relevante en pocas palabras)
+
+
+wordpress SEO
+by yoas: mejora el posisionamiento de web en google
+
+
+
+¿Como puedo hacer para agregar mas plugins?
+-Es muy sencillo puedes buscarlos desde internet goooglearlos o puedes darle en añadir nuevo y ver todos los plugines que existen.
+
+
+
+
+Nota: algunos plugins no treen boton de configurar lo que habria que hacer es irse a ajustes y revisar.
+Los plugins se pueden modificar en el editor 
+
+
+
+
+

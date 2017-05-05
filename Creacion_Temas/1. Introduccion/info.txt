@@ -1,0 +1,10 @@
+Recursos
+Plataforma de wordpress
+SlideJS
+AbobeKuler
+Google Fonts raleway
+960 grid system
+Normalize.css
+Lorempixel Generador de imagenes aleatoreas
+Lorem Ipsum
+Photoshop

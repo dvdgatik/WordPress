@@ -1,0 +1,23 @@
+-Escritorio
+Acceso rapido a las opciones principales de wordpress
+se puede personalizar añadir o quitar accesos o mover pizzarones a otros lugares
+Puedes revisar numero de entradas, paginas y comentarios en un vistazo
+
+Actualizaciones
+Puedes comprobar actualizaciones porque worpress lo hace constantemente para mejorar la seguridad y agregarnuevas funciones
+
+Titulo de la pagina web aparece en la parte de arriba
+
+
+Documentacion de wrodpress = 
+Boton hover de wordpress
+
+Privilegios de ususarios y administradores
+
+Modulo para usuarios personalizar temas agregar imagen de usuario etc.
+
+El nombre de usuario una vez registrado ya no se puede cambiar Nombre apellidos alias si
+
+Por cueastiones de seguridad mostrar al publico otro nombre que no sea admin
+
+La imagen solo se cambia en gravatar
