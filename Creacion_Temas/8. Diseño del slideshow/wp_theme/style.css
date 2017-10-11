@@ -13,7 +13,7 @@ Author URL: Direccion web del autor
 body { 
    background: #191919 ;
    font-size: 12pt;
-   font-family: "open sans", Arial, Helvetica, sans-serif;	
+   font-family: "open sans", Arial, Helvetica, sans-serif;
 }
 
 header, #main, footer {
@@ -95,5 +95,65 @@ header nav ul li a:hover {
 	
 }
 
+/*---- Main -----*/
+#main {
+	overflow: hidden;
+}
 
+/*Slideshow*/
 
+#main #slideshow {
+	width: 100%;
+	float:left;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+
+#main #slideshow .thumb {
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+}
+
+#main #slideshow article {
+	float: left;
+	font-family: 'Open sans', arial, helvetica, sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	width: 49%;
+	color: #fff;
+}
+
+#main #slideshow article h2 {
+	font-family: "Raleway", helvetica, arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: left;
+}
+
+#main #slideshow article .date {
+	font-family:  "Raleway", helvetica, arial, sans-serif;
+	font-size: .8rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: #777777
+}
+
+#main #slideshow .slidesjs-pagination li {
+	background-color: #fff;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#main #slideshow .slidesjs-pagination li a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	font-size: 0;
+}
+
+#main #slideshow .slidesjs-pagination li .active {
+	background: #333333;
+}
