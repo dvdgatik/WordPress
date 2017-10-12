@@ -157,3 +157,73 @@ header nav ul li a:hover {
 #main #slideshow .slidesjs-pagination li .active {
 	background: #333333;
 }
+
+/*MAIN*/
+#main #article_list {
+	clear:both;
+	width: 75%;
+	float: left;
+}
+
+#main #article_list  article {
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #333333;
+	overflow: hidden;
+}
+
+#main #article_list article .thumb {
+	width: 35%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom:2%; /*El margin bottom y margin top no se suelen poner en responsive design*/
+}
+
+#main #article_list article h2 {
+	font-family: 'Raleway', 'opem-sans', helvetica, arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+#main #article_list article h2 a {
+	color: #ffffff;
+}
+
+#main #article_list article h2 a:hover {
+	text-decoration: none;
+	color: #bf2222;
+}
+
+#main #article_list article .extract {
+	text-align: justify;
+	color: #fff;
+}
+
+#main #article_list article .date {
+	font-size: .8rem;
+	color: #777777;
+	margin-bottom: 10px;
+}
+
+#main #article_list #pagination {
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#main #article_list #pagination p {
+	text-align: center;
+}
+
+#main #article_list #pagination p  a{
+	margin: 0px 20px;
+	font-size: 1.5rem;
+	font-family: "Raleway", helvetica, arial, sans-serif;
+	font-weight: 300;
+	display: inline-block;
+}
+
+
+
+
+
