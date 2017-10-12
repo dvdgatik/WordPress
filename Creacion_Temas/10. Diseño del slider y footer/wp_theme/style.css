@@ -223,6 +223,67 @@ header nav ul li a:hover {
 	display: inline-block;
 }
 
+/*aside*/
+#main aside {
+	width: 25%;
+	float: left;
+}
+
+#main .widget {
+	width: 100%;
+}
+
+.widget {
+	margin-bottom: 50px;
+	display: block;
+	float: left;
+}
+
+.widget h3 {
+	font-size: 1.4rem;
+	font-family: 'Raleway', 'opem-sans' , arial, helvetica;
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.widget ul li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.widget ul li a {
+	font-family: 'Raleway', 'opem-sans' , arial, helvetica;
+	font-size: .9rem;
+	color: #777777;
+}
+
+.widget ul li a:hover  {
+	color: #bf2222;
+	text-decoration:none;
+}
+
+/*Footer*/
+
+footer {
+	width:85%;
+}
+
+
+footer .widget {
+	width: 25%;	
+}
+
+footer #copyright {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	color: #333333;
+	font-family: 'Raleway', 'opem-sans' , arial, helvetica;
+}
+
+
 
 
 
