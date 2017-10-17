@@ -1,0 +1,45 @@
+el wordpress se encuentra en la carpeta WordPress despues wp
+
+- Los temas se instalan dentro de wp-content/themes
+- Aqui se agregara una nueva carpeta con el nombre del tema
+- Copiar las carpetas css, js y style.css ya que en ella se involucra todo el diseño y programacion en js del sitio estatico al tema
+
+Aproximadamente se van a crear como 10 archivos php para el tema
+
+Para el index.html
+ - Crear archivo index.php (estara el codigo del contenido principal)
+ - Crear archivo header.php (estara el codigo del header)
+ - Crear archivo footer.php (estara el codigo del footer)
+
+ Utilizar las siguientes fucniones de php dentro de index.php:
+ <?php get_header(); ?> en esta parte estara todo lo del header
+ contenido principal 
+ <?php get_sidebar(); ?> en esta parte estara todo lo del sidebar
+ <?php get_footer(); ?> en esta parte estara todo lo del footer
+
+  Crear un nuevo archivo que se llame sidebar.php
+
+  Crear un archivo que se llame archive.php (se visualizan todos los articulos de las categorias
+
+  Crear un archivo que se llame functions.php (funciones especiales de wordpress y php agregar thumbnails, activar la widgets)
+
+  Crear un archivo que se llame page.php (crear pagina de paginas)
+  
+  Crear un archivo que se llame slideshow.php (crear slideshow)
+
+
+
+
+ Al agregarlos a la carpeta aparecera en el wordpress y podras activarlo a traves de los datos del style.css
+
+  crear archivos blog.php (lista de post, lista mas reciente del blog) y single.php (post individual)
+
+
+Los estilos no se veran ya que debe cambiarse la ruta relativa style.css por:
+
+<?php bloginfo('stylesheet_url') ?>  esta funcion sirve para llamar ese archivo
+
+
+<?php bloginfo('template_url') ?>  sirve para acceder a la url de nuestra plantilla
+
+
