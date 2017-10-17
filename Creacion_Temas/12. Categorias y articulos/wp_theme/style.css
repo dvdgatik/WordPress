@@ -283,10 +283,40 @@ footer #copyright {
 	font-family: 'Raleway', 'opem-sans' , arial, helvetica;
 }
 
+/*--BLOG--*/
+
+#main #article_list #cat_name {
+	font-family: "Raleway", "opem-sans", arial, sans-serif;
+	font-size: 2rem;
+	color: #333333;
+	font-weight: 500;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333333;
+	margin-right: 30px;
+	padding-bottom: 10px;
+}
 
 
+/*Comentarios *Importante Borrar* */
 
+#main #article_list #comentarios {
+	margin-bottom: 40px;
+	margin-right: 4%;
+}
 
+#main #article_list #comentarios > h3 {
+	font-size: 1.3rem;
+	font-family: "Raleway", "opem-sans", helvetica, arial;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #333333;
+
+}
+
+#main #article_list #caja_comentarios {
+	height: 70px;
+	background: #cccccc;
+}
 
 
 
