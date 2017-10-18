@@ -180,6 +180,12 @@ header nav ul li a:hover {
 	margin-bottom:2%; /*El margin bottom y margin top no se suelen poner en responsive design*/
 }
 
+#main #article_list article .thumb img {
+	width: 100%;
+	height: 100%;
+}
+
+
 #main #article_list article h2 {
 	font-family: 'Raleway', 'opem-sans', helvetica, arial, sans-serif;
 	font-size: 1.5rem;
