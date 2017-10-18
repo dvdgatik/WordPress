@@ -7,7 +7,11 @@
         <?php query_posts("paged=$paged"); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post();?>
             <article>
-                <img class="thumb" src="http://lorempixel.com/450/370/" alt="">
+                <!--<img class="thumb" src="http://lorempixel.com/450/370/" alt="">-->
+                <div class="thumb"><a href="<?php the_permalink();?>">
+                    <?php if (has_post_thumbnail()) {the_post_thumbnail('list_articles_thumbs'); //medida a utilizar
+                    } ?>
+                </a></div>
                 <hgroup>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 </hgroup>

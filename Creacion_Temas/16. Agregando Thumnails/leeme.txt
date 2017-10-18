@@ -110,4 +110,16 @@ Para la paginacion de los post se agrega el siguinete codigo:
 query_posts()
 
 
+------------------Agregando thmbnails------------------------
+
+
+Activar los thumnailss desde el archivo functions con el siguiente codigo:
+
+<?php 
+add_theme_support('post-thumbnails');
+add_image_size('sidebar_thumbs', 470, 300, true);
+add_image_size('list_articles_thumbs', 350, 370, true);
+?>
+
+
 
