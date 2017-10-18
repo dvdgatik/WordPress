@@ -22,13 +22,20 @@
 <body>
     <header>
         <div id="logo"><p>My Blog</p><span>by David Gatica</span></div>
+
         <nav>
-            <ul>
+        <?php wp_nav_menu(
+            array(
+            'container' => false,
+            'items_wrap' => '<ul id="menu-top">%3$s</ul>',
+            'theme_location' => 'menu'
+            ));?>
+            <!--<ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="#">Acerca de</a></li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Pagina Ejemplo</a></li>
-            </ul>
+            </ul>-->
         </nav>
     </header>   

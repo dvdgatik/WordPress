@@ -43,3 +43,34 @@ Los estilos no se veran ya que debe cambiarse la ruta relativa style.css por:
 <?php bloginfo('template_url') ?>  sirve para acceder a la url de nuestra plantilla
 
 
+------Creando menu de wordpress-------------
+
+El codigo del slideshow se mueve al archivo slideshow.php
+
+dentro de index.php para poder llamarlo se agrega los siguiente
+
+ <?php include(TEMPLATEPATH.'/slideshow.php'); ?>  
+ la ruta de la plantilla concatenado del archivo slidehow.php
+
+Quitar la parte estatica del menu que se encuentra en el header donde se ubican los anchor\\
+
+
+Agregar en el archivo functions el siguiente codigo:
+
+<?php 
+register_nav_menus(array(
+'menu' => "Menu Superior",
+	));  Este permite registrar un nuevo menu desde wp
+
+Despues donde eliminamos los ul li del nav aregar lo siguiente
+
+  <?php wp_nav_menu(
+            array(
+            'container' => false,
+            'items_wrap' => '<ul id="menu-top">%3$s</ul>',
+            'theme_location' => 'menu'
+            ));?>
+
+ Esta parte del codigo es la que se asocia con el menu del thema y el codigo de functions entonces ya podremos personalizar el menu desde wordpress 
+ y los cambios se veran reflejados en el
+
