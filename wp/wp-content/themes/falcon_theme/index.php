@@ -4,37 +4,27 @@
                 <?php include(TEMPLATEPATH.'/slideshow.php'); ?>       
         </div>
         <section id="article_list">
+        <?php query_posts("paged=$paged"); ?>
+        <?php if (have_posts()) : while (have_posts()) : the_post();?>
             <article>
                 <img class="thumb" src="http://lorempixel.com/450/370/" alt="">
                 <hgroup>
-                    <h2><a href="">Titulo de nuestro articulo</a></h2>
+                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 </hgroup>
-                <p class="date">26 de diciembre de 2014 en <a href="#">Categoria 1</a></p>
-                        <p class="extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio culpa veritatis architecto totam, dolorum impedit voluptatum asperiores consectetur porro neque quis in ratione corrupti debitis! Nostrum dignissimos, esse perferendis.</p>
+                <div class="date"> <?php the_date(); ?> en <span><?php the_category(); ?></span></div>
+                        <div class="extract"><?php the_excerpt(); ?></div>
             </article>
-            <article>
-                <img class="thumb" src="http://lorempixel.com/450/370/" alt="">
-                <hgroup>
-                    <h2><a href="">Titulo de nuestro articulo</a></h2>
-                </hgroup>
-                <p class="date">26 de diciembre de 2014 en <a href="#">Categoria 1</a></p>
-                        <p class="extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio culpa veritatis architecto totam, dolorum impedit voluptatum asperiores consectetur porro neque quis in ratione corrupti debitis! Nostrum dignissimos, esse perferendis.</p>
-            </article>
-            <article>
-                <img class="thumb" src="http://lorempixel.com/450/370/" alt="">
-                <hgroup>
-                    <h2><a href="">Titulo de nuestro articulo</a></h2>
-                </hgroup>
-                <p class="date">26 de diciembre de 2014 en <a href="#">Categoria 1</a></p>
-                        <p class="extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio culpa veritatis architecto totam, dolorum impedit voluptatum asperiores consectetur porro neque quis in ratione corrupti debitis! Nostrum dignissimos, esse perferendis.</p>
-            </article>
+
+        <?php endwhile; else: ?>
+        <h1>No se encontraron articulos</h1>
+        <?php endif; ?>
             <div id="pagination">
-                <p>
-                <a href="#"><- Post Siguientes</a>
-                <a href="#">Post Anteriores-></a>
+                <p><?php next_posts_link('Post Siguientes ->')?>
+                <?php previous_posts_link('<- Post Anteriores')?>
                 </p>
             </div>
         </section>
 <?php get_sidebar(); //llamas al archivo sidebar.php?>
     </section>
 <?php get_footer(); //llamas al rchivo footer.php?>
+

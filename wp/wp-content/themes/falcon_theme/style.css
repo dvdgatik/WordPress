@@ -313,6 +313,11 @@ footer #copyright {
 
 }
 
+#main #article_list article .date ul {
+	list-style: none;
+	display: inline-block;
+}
+
 #main #article_list #caja_comentarios {
 	height: 70px;
 	background: #cccccc;

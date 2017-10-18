@@ -74,3 +74,40 @@ Despues donde eliminamos los ul li del nav aregar lo siguiente
  Esta parte del codigo es la que se asocia con el menu del thema y el codigo de functions entonces ya podremos personalizar el menu desde wordpress 
  y los cambios se veran reflejados en el
 
+
+
+ ------Cargar los articulos dinamicamente-------------
+
+ Esto se realiza mediante un loop de wordpress
+
+
+  <?php if (have_posts()) : while (have_posts()) : the_post();?>
+            //Codigo que se ejecutara cuando se encuentren articulos
+        <?php endwhile; else: ?>
+        //Aqui el codigo que se ejecutara si no encuentra articulos
+        <?php endif; ?>
+
+
+
+
+Fucniones para traer los campos del post
+
+  -the_title(): regresa el titulo del post
+  -the_permalink() regresa la url del post
+  -the_date() regresa la fecha del post
+  -the_category regresa la categoria del post
+  -the_excerpt() regresa la descripcion oextracto del articulo
+
+  the exerpt y category automaticamente vienen con etiquetes a y p solo hay que eliminar la etiqueta estatica y convertirla a un div
+
+Para la paginacion de los post se agrega el siguinete codigo:
+
+<p><?php next_posts_link('Post Siguientes ->')?>
+  <?php previous_posts_link('<- Post Anteriores')?></p>
+
+  De igual manera se eliminan los anchor
+
+query_posts()
+
+
+
