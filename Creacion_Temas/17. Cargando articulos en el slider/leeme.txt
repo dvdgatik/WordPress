@@ -121,5 +121,15 @@ add_image_size('sidebar_thumbs', 470, 300, true);
 add_image_size('list_articles_thumbs', 350, 370, true);
 ?>
 
+Despues en el index remplazar la etiqueta de imagen por un div con la clase thumb y agregar el siguiente codigo
 
+<div class="thumb">
+  <a href="<?php the_permalink();?>">
+        <?php if (has_post_thumbnail()) {the_post_thumbnail('list_articles_thumbs'); //medida a utilizar
+                    } ?>
+  </a>
+</div>
 
+---------------------Agregar slideshow dinamico--------------------- 
+
+Hay que hacer lo mismo que con los post agregar el loop de wordpress y las funciones para traer los campos del post pero con el html del slider

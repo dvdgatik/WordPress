@@ -13,7 +13,7 @@ register_nav_menus(array(
  /*----- Agregar thumbnails al tema---------*/
  
 add_theme_support('post-thumbnails');
-add_image_size('sidebar_thumbs', 470, 300, true); //tamano de imagen en sidebar
+add_image_size('slider_thumbs', 470, 300, true); //tamano de imagen en sidebar
 add_image_size('list_articles_thumbs', 450, 370, true);//tamano de imagen en la lista
 
 
