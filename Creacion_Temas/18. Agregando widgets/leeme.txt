@@ -133,3 +133,27 @@ Despues en el index remplazar la etiqueta de imagen por un div con la clase thum
 ---------------------Agregar slideshow dinamico--------------------- 
 
 Hay que hacer lo mismo que con los post agregar el loop de wordpress y las funciones para traer los campos del post pero con el html del slider
+
+
+
+-------------------------Agregar Widgets------------------------
+Todo tema de wordpress debe tener la fucnion wp_head y wp_footer estas sirven para agregar la barra superior del wp cuando inicias sesion como administrador tambien sirven para poder agregar pulgins en especial la funcion wp_footer
+
+agregar  en functions php el codigo para registrar en el sidebar un widget
+
+register_sidebar(array(
+  'name'=>"Sidebar",
+  'before_widget' => "<section class='widget'>",
+  'after_widget' => "</section>",
+  'before_title' => "<h3>",
+  'after_title' => "</h3>"
+  ));
+/*En esta parte del codigo se declara cual es el area de widgets y estara encerrado con una etiqueta section y clase widget y los titulos tendran un H3*/
+
+en el sidebar se borra el codigo y se agrega lo siguiente  dentro del sidebar:
+
+ <aside>
+    <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar')) : endif; ?>
+
+</aside>
+
