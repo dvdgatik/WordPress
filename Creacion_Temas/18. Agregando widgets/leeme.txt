@@ -150,10 +150,39 @@ register_sidebar(array(
   ));
 /*En esta parte del codigo se declara cual es el area de widgets y estara encerrado con una etiqueta section y clase widget y los titulos tendran un H3*/
 
-en el sidebar se borra el codigo y se agrega lo siguiente  dentro del sidebar:
+en el sidebar se borra el codigo y se agrega lo siguiente  dentro del sidebar (aside):
 
  <aside>
     <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar')) : endif; ?>
-
 </aside>
+
+
+se realiza el mismo procedimiento para el footer 
+
+
+functions php
+
+register_sidebar(array(
+  'name'=>"Footer",
+  'before_widget' => "<section class='widget'>",
+  'after_widget' => "</section>",
+  'before_title' => "<h3>",
+  'after_title' => "</h3>"
+  ));
+
+ ?>
+
+
+ --------------------------------
+
+footer php
+  <footer>
+        <section id='ft-swidgets'>
+            <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer')) : endif; ?>
+        </section>
+        <p id="copyright">My BLog Copyright @ 2014</p>
+    </footer>
+    <?php wp_footer(); ?>
+</body>
+</html>
 
