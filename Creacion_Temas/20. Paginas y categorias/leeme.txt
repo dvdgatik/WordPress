@@ -206,3 +206,26 @@ agregar al style.css clases de alineacion de texto esto servira para que el usua
 agregar un div con id comentarios despues un id de caja de comentarios dentro del el agregar el siguiente codigo:
 
 <?php comments_template(); ?>
+
+
+
+-------------------------Paginas y categorias--------------------------------------
+
+
+Pasar el codigo single.php a page.php y listo
+
+en esta parte tienes la opcion de dejar o no los comentarios
+
+
+ir al archivo archive.php para las categorias y pasar el codigo del index.php a este omitiendo el slider,
+Quitar la funcion         <?php query_posts("paged=$paged"); ?> para que no aparezcan todas las categorias
+
+
+
+agregar  <h2 id="cat_name"><?php single_cat_title($prefix = '',$display = true); ?></h2> para el titulo de la categoria
+
+Listo el tema esta completo!!
+
+
+
+-------------------------Adicionales----------------------------
