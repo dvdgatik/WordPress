@@ -7,6 +7,23 @@ Author: David Gatica
 Author URL: http://www.davidgatica.esy.es
 */
 
+
+/*--- Estilos generales alineaciones para el articulo ------------*/
+.center {text-align: center;}
+img.center, img[align="center"] {display: block; margin-left: auto; margin-right: auto}
+.alignleft{float: left;}
+img.alignleft, img[align="left"] {float: left; margin:2px 10px 5px 0px;}
+.alignright {float:right;}
+img.alignright,img[align="right"] {float: right; margin:2px 0px 5px 10px;}
+.clear {clear: both;}
+hr.clear {clear: both; visibility: hidden;margin:0px;padding: 0px;height: 0px}
+
+/*Las clases de arriba son alineaciones de texto estas serviran para que el usuario pueda alinear 
+el testo desde el procesador de textos de wordpress*/
+
+#article_list article p  {
+	margin-bottom: 10px;
+}
 /*---- Estilos Generales --*/
 * {margin: 0px;padding: 0px;}
 
@@ -335,7 +352,6 @@ footer #copyright {
 }
 
 #main #article_list #caja_comentarios {
-	height: 70px;
 	background: #cccccc;
 }
 

@@ -1,4 +1,5 @@
              <section id="slideshow">
+             <?php query_posts('category_name=slider'); ?>
              <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="slide">
                     <div class="thumb">
@@ -14,5 +15,4 @@
             <?php endwhile; else: ?>
             <h2>No se encontraron articulos</h2>
             <?php endif; ?>
-               
              </section>  

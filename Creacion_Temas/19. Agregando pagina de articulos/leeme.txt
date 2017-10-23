@@ -186,3 +186,23 @@ footer php
 </body>
 </html>
 
+
+
+
+-------------Agregar pagina de articulos post---------------
+
+Pasar codigo del index.php a single.php
+
+Quitar     <?php query_posts("paged=$paged"); ?> para que muestre un solo post
+
+quitar el slider
+
+aquitar la paginacion
+
+sustituir the_content en vez de excerpt ya que queremos que muestre todo el contenido del articulo y no solo un extracto
+
+agregar al style.css clases de alineacion de texto esto servira para que el usuario desde el procesador de textos de wp pueda alinear el texto
+
+agregar un div con id comentarios despues un id de caja de comentarios dentro del el agregar el siguiente codigo:
+
+<?php comments_template(); ?>
