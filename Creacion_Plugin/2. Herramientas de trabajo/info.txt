@@ -1,0 +1,17 @@
+Que es un Plug In ?
+-Es un extracto de codigo que se introduce en el wordpress para darle un funcionamiento extra
+
+Como funcionan los Plug ins?
+- Los plugins ingresan codigo que son leidos antes del archivo functions y la plantilla del sitio. haciendo que estos codigos alteren el funcionamiento normal del Wordpress
+
+Importancia de los plugins 
+- Los plugins nos ayudan a poder agregar secciones desarrolladass ya por terceros. Tambien nos ayudan a encapsular funcionalidades de nuestro sitio 
+
+
+Herramientas de trabajo
+
+-Administrador de wordpress
+
+Editor de texto
+
+Plugin Wp editor
