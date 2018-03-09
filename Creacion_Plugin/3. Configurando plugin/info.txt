@@ -19,9 +19,11 @@ Editor de texto
 3. Configurando el archivo inicial de un Plugin
 -Al igual que los temas con style.css  los plugins se configuran a traves de un comentario
 
-Todo esta documentado en el codex de wordpress que es la documentacion oficial
+* Todo esta documentado en el codex de wordpress que es la documentacion oficial
 
 Guardar el archivo dentro de una misma carpeta con el mismo nombre y subirlo en wordpress como si fuera un plugin en formato zipeado
 
 History-> history.php 
 
+define('FS_METHOD', 'direct');: Esta constante sirve para evitar establecer credenciales FTP
+e instlar el plugin  plugins sin 
