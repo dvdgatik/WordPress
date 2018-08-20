@@ -60,7 +60,9 @@ function c7hd_customer_options() {
 	4to parametro: url o slug
 	5to y mas importante: que funcion va a leer
 
-	esta opcion va agregar un hook
+	esta opcion vamos a agregar un hook
+
+	add_action('admin_menu', 'c7hd_customer_options');
 	hook: funcion que se ejecutará cuando pase algo
 
 	hay diferentes hooks para levantar funciones cuando publicas un post.
