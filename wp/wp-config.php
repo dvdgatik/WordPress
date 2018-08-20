@@ -26,7 +26,7 @@ define('DB_NAME', 'wp_falcon');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'click1234');
+define('DB_PASSWORD', 'dvd12358');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

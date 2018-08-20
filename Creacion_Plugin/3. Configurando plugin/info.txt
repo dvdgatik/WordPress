@@ -26,4 +26,57 @@ Guardar el archivo dentro de una misma carpeta con el mismo nombre y subirlo en 
 History-> history.php 
 
 define('FS_METHOD', 'direct');: Esta constante sirve para evitar establecer credenciales FTP
-e instlar el plugin  plugins sin 
+e instlar el plugin  plugins sin necesidad de tener cliente ftp
+
+4. Creando una pagina de opciones
+
+//Define tus variables globales para tus rutas
+define('C7HD_ROOTDIR', plugin_dir_path(__FILE__));
+define('C7HD_URLPLUGIN', plugin_dir_url(__FILE__));
+
+
+plugin_dir_path(__FILE__)
+Tu puedes usar esta funcion siempre cuando la necesites pero se recomienda usarla en una variable para no usar la funcion en cada momento y no consumir recursos
+
+Un buen consejo a la hora de crear un plugin es separar todo en diferentes archivos
+
+por ejemplo
+
+history-setting.php (Todo el codigo necesario para el panel de administracion)
+
+Lo guardamos con un simple require usando la ruta
+
+require_once(C7HD_ROOTDIR.'history-setting.php');
+
+dentro del history-setting.php agregar una funcion que permita agregar esa opcion al menu
+
+function c7hd_customer_options() {
+	add_options_page('history developer','History', 'manage_options', 'c7hd', 'c7hd_settings_page') opcion que da wordpress para agregar una opcion al menu
+
+	1er parametro: titulo de la pagina
+	2do parametro: como aparecera en el menu
+	3er parametro: permisos
+		manage_options: encargado de manejar todas las opciones del menu
+	4to parametro: url o slug
+	5to y mas importante: que funcion va a leer
+
+	esta opcion va agregar un hook
+	hook: funcion que se ejecutará cuando pase algo
+
+	hay diferentes hooks para levantar funciones cuando publicas un post.
+	cuando actualizas, cuando te logueas, cuando eliminas un usuario
+}
+
+Funcion que va a leer el hook 
+
+function c7hd_settings_page() {
+
+ echo '<h1>History Developer<h1>';
+	
+}
+
+consejo: siempre usar alias antes de todas las funciones que se creen en este caso el alias es "c7hd"
+Esto para que no haya algun conflicto con otros plugins
+
+
+
