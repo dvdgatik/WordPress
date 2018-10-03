@@ -80,5 +80,26 @@ function c7hd_settings_page() {
 consejo: siempre usar alias antes de todas las funciones que se creen en este caso el alias es "c7hd"
 Esto para que no haya algun conflicto con otros plugins
 
+5. Agregando estilos y scripts
+
+Mala practica: llenar el Wordpress con puros echos
+Es recomendable poner prefijos en las clases de estilos para no hacer conflictos con otros plugins
 
 
+
+//Funcion para agregar CSS
+/*parametros
+alias
+ruta
+false header
+true footer
+*/
+function c7_admin_assets() {
+	wp_enqueue_style('c7_admin_css', C7HD_URLPLUGIN .'assets/css/main.css', false, '1.0');
+}
+
+add_action('admin_enqueue_scripts', 'c7_admin_assets');
+//agrega la funcion de estilos justo cuando carga los scripts con el hook
+
+//hook ejecutar funciones cuando WordPress haga algo
+require_once(C7HD_ROOTDIR.'history-setting.php');

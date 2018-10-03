@@ -1,0 +1,2 @@
+Mala practica: llenar el Wordpress con puros echos
+Es recomendable poner prefijos en las clases de estilos para no hacer conflictos con otros plugins
