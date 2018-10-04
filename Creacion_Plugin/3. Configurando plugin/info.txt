@@ -103,3 +103,38 @@ add_action('admin_enqueue_scripts', 'c7_admin_assets');
 
 //hook ejecutar funciones cuando WordPress haga algo
 require_once(C7HD_ROOTDIR.'history-setting.php');
+
+
+
+6. Guardando datos en la tabla options
+
+
+<form action="options.php" method="post">
+ 	<?php 
+ 	settings_fields('c7_fields_options');
+ 	//brinda todas las opciones necesarias para que pueda almacenar datos 
+ 	//tiene que estar adentro de la etiqueta form 
+ 	//Creamos un grupo de campos que estaran guradados bajo esta funcion
+ 	?>
+
+ 	<div class="c7-form-group">
+ 		<label for="c7_note">Ingresar tu nota</label>
+ 		<textarea name="c7_note" id="c7_note" class="c7-input"></textarea>
+ 	</div>
+ 	<?php submit_button(); ?>
+ </form>
+ <?php
+  $nota= get_option("c7_note"); 
+  echo "Nota: ".$nota;
+  ?>
+
+
+function c7_customer_register_settings() {
+	register_setting('c7_fields_options', 'c7_note'); //se encarga de registrar cambios en la base de datos
+	/*
+		primer parametro: grupo que creaste dentro del form
+		segundo parametro: nombre del campo en este caso del textarea
+	*/
+}
+// hook para almacenarlo
+add_action('admin_init', 'c7_customer_register_settings');
