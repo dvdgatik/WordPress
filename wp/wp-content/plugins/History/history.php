@@ -31,7 +31,7 @@ function c7_admin_init() {
 		'rewrite' => array('history'),
 		'has_archive' => TRUE,
 		'menu_icon' => 'dashicons-admin-page',
-		'supports' => array('title','editor', 'author')
+		'supports' => array('title', 'author')
 
 	 )); //permite registrar un post type
 	/*
@@ -54,7 +54,7 @@ function c7_admin_init() {
 	supports
 			que opciones va a tener mi post_type
 			 titulo
-			 editor
+			 editor (procesador de texto de wordpress)
 			 autor
 			 imagen destacada
 	Todas las funciones de WordPress tienen que ser agregadas en un hook
@@ -69,6 +69,7 @@ add_action('admin_enqueue_scripts', 'c7_admin_assets');
 
 //hook ejecutar funciones cuando WordPress haga algo
 require_once(C7HD_ROOTDIR.'history-setting.php');
+require_once(C7HD_ROOTDIR.'history-post.php');
 
  ?>
 
