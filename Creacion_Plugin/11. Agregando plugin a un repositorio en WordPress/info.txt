@@ -1,0 +1,54 @@
+1. Tener un archivo readme.txt
+2. agregar lo siguiente
+=== C7 History Developer === nombre de tu plugin + developer
+Contributors: cesaraquino agregas tu nick MUY IMPORTANTE tiene que estar registrado en WordPress.org
+Donate link: http://cesaraquino.com.pe/donate/ como este plugin es libre muchos acostumbran a poner un link de donacion
+Tags: history, note, notes, projects, dev, developer, histories etiquetas que correspondan a mi plugin lo que necesite para que la gente pueda encontrar mi plugin
+Requires at least: 4.3 minima version que necesita para funcionar
+Tested up to: 4.7.2 version en la que mi plugin ha sido testeado
+Stable tag: 4.7 versian estable 
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html esta parte es obligatoria el plugin debe contar con esta licencia
+
+Have a history of what you are building in the project esta parte es un pequeña descripcion del plugin que se mostrara en los buscadores
+
+== Description ==
+C7 History Developer is a plugin help you with development of your project. you can save a simple history of notes
+// Descripcion mas larga
+
+
+== Installation == Sección de instalacion
+1. upload the plugin files to the '/wp-content/plugins/c7-history-developer/' directory, or install the plugin through the WordPress
+2. Activate the plugin through the "Plugins" screen in WordPress
+3. Go to settings > History Developer
+4. Start to save your notes
+
+
+
+== Frecuently Asked Questions == Sección de Preguntas frecuentes FAQ's
+=¿Anyone can save a note?=
+
+Yes, the history es for all developers.
+
+
+== Screenshots == debe estar agregada en la carpeta assets con los nombres:
+1. screenshot-1.png
+
+
+== Changelog == Registro de cambios (la version de este plugin y que es lo que viene en cada version)
+
+=1.0=
+*Save notes with its time
+*Everyone can save notes
+
+3. Una vez que tienes el archivo de readme.txt vamos a la pagina oficial de WordPress.org  https://es.wordpress.org/plugins/
+	La pagina muestra:
+	Plugins destacados
+	Plugins populares
+	Plugins en beta
+4. Busca la seccion que dice: añade tu plugin
+5. Al entrar te dara algunas recomendaciones, donde en uno de los puntos viene el archivo readme con un ejemplo de como construirlo.
+6. te menciona que estara en revision, y sobretodo cuantos estan en revision.
+7. te dara una opcion para subirlo lo subes y te dira que esperes.
+8. Si todo sale bien te enviaran un correo diciendo si tu plugin fue seleccionado.
+9. Despues te llegara otro diciendo que fue aprobado.
